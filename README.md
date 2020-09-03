@@ -1,3 +1,3 @@
-# [Custome_Video_Player]( https://etorres-revature.github.io/Custom_Video_Player/)
+# [Custom_Video_Player]( https://etorres-revature.github.io/Custom_Video_Player/)
 
  https://etorres-revature.github.io/Custom_Video_Player/

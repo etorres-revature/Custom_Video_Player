@@ -63,6 +63,10 @@ h1  {
     margin-left: 12px;
 }
 
+.btn:focus {
+    outline: 0;
+}
+
 @media(max-width: 800px) {
     .screen, .controls {
         width: 90%;
