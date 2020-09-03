@@ -12,7 +12,7 @@ function toggleVideoStatus() {
   } else {
     videoEl.pause();
   }
-};
+}
 
 //update play/pause icon depending on if video is running or not
 function updatePlayIcon() {
@@ -21,23 +21,36 @@ function updatePlayIcon() {
   } else {
     playBtn.innerHTML = `<i class="fa fa-pause fa-2x"></i>`;
   }
-};
+}
 
 //update progress & timestamp
 function updateProgress() {
-  return true;
-};
+  progressEl.value = (video.currentTime / video.duration) * 100;
+
+  //get minutes
+  let mins = Math.floor(video.currentTime / 60);
+  if (mins < 10) {
+    mins = "0" + String(mins);
+  }
+
+  //get seconds
+  let secs = Math.floor(video.currentTime % 60);
+  if (secs < 10) {
+    secs = "0" + String(secs);
+  }
+  timeStampEl.innerHTML = `${mins}:${secs}`;
+}
 
 //tie video time to the progress bar
 function setVideoProgress() {
-  return true;
-};
+  video.currentTime = (+progressEl.value * video.duration) / 100;
+}
 
 //stop video
 function stopVideo() {
-//   videoEl.currentTime = 0;
+  videoEl.currentTime = 0;
   videoEl.pause();
-};
+}
 
 //even listeners
 videoEl.addEventListener("click", toggleVideoStatus);
