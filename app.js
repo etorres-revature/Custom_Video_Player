@@ -1,3 +1,6 @@
+//Mozilla embed Video element
+//https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
+
 //grabbing html elements for use in JS
 const videoEl = document.querySelector("#video");
 const playBtn = document.querySelector("#play");
