@@ -1,6 +1,6 @@
 # [Video Player](https://etorres-revature.github.io/Custom_Video_Player/)
 
- This [Video Player](https://etorres-revature.github.io/Custom_Video_Player/) uses an embedded HTML5 video element.  There are custome controls.  The play button changes to a pause button while playing.  The stop button turns off the video and returns it to its starting point.  The progress bar shows how much of the video has played, how much is left to play, and allows the user to choose a spot in the video to fast forward.  Finally, the time elapsed is displayed at the end of the controls.  
+ This [Video Player](https://etorres-revature.github.io/Custom_Video_Player/) uses an embedded HTML5 video element.  There are custom controls.  The play button changes to a pause button while playing.  The stop button turns off the video and returns it to its starting point.  The progress bar shows how much of the video has played, how much is left to play, and allows the user to choose a spot in the video to fast forward.  Finally, the time elapsed is displayed at the end of the controls.  
 
  Please enjoy the [Video Player](https://etorres-revature.github.io/Custom_Video_Player/).  E-mail me with any feature update suggestions.
 
@@ -8,7 +8,7 @@
 
 #### :memo: HTML5 :memo:
 
-**HTML5** is a markup language used for structuring and presenting content on the World Wide Web.  The goals are to improve the language with support for the latest multi-media and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices; and to remain backward compatible to older software.  Many new symantic features are included.
+**HTML5** is a markup language used for structuring and presenting content on the World Wide Web.  The goals are to improve the language with support for the latest multi-media and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices; and to remain backward compatible to older software.  Many new symantec features are included.
 
 *HTML5* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/HTML5).</a>
 
@@ -16,7 +16,7 @@
 
 **Cascading Style Sheets (CSS)** is a stylesheet language used for describing the presentation of a document written in a markup language (such as HTML5).  CSS is designed to enable the separation of presentation and content; including layout, colors, and fonts.  This separation improves content accessibility to provide more flexibility and control in the specification of presentation characteristics, enabling multiple web pages to share formatting by specifying relevant CSS in a separate file, which reduces complexity and repetition in the structural content (HTML), as well as enabling the file to be cached to improve the page load speed between the pages that share the file and its formatting.
 
-Separation of formating and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice, and on Braille-based tactile devices. 
+Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice, and on Braille-based tactile devices. 
 
 *CSS* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).</a>
 
